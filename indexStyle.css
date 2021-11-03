@@ -1,0 +1,72 @@
+main, .logo-text{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header, .command-button{
+  text-align: center;
+}
+
+main{
+  color: white;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 30px 200px 50px;
+  padding: 80px 70px;
+}
+
+.logo{
+  width: 200px;
+}
+
+.logo-text{
+  color: lime;
+  margin: 0px;
+}
+
+.command-button{
+  background-color: lime;
+  padding: 10px;
+}
+
+.scooter{
+  margin-top: 25px;
+}
+
+.scooter-name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* freccetta */
+.location:before{
+  content: "\21A6";
+}
+
+.power{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.high{
+  width: 500px;
+  background-color: lime;
+}
+
+.medium{
+  width: 300px;
+  background-color: orange;
+}
+
+.low{
+  width: 150px;
+  background-color: red;
+}
